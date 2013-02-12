@@ -8,6 +8,7 @@ module HandlebarsAssets
   end
 
   autoload(:Config, 'handlebars_assets/config')
+  autoload(:Serialize, 'handlebars_assets/serialize')
   autoload(:Handlebars, 'handlebars_assets/handlebars')
   autoload(:TiltHandlebars, 'handlebars_assets/tilt_handlebars')
   

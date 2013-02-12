@@ -20,6 +20,7 @@ module HandlebarsAssets
     end
 
     def evaluate(scope, locals, &block)
+      puts 'TiltHandlebars.evalutate...'
       template_path = TemplatePath.new(scope)
 
       source = if template_path.is_haml?
